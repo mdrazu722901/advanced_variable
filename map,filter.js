@@ -15,3 +15,8 @@ const number = [1, 3, 4, 2, 5, 7, 6, 0, 3, ];
 //     return array;
 // })
 // console.log(array);
+
+const Filtero = number.filter(x => x > 5);
+console.log(Filtero);
+const findo = number.find(x => x > 5);
+console.log(findo);
